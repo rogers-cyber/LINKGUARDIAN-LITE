@@ -20,20 +20,6 @@ https://github.com/rogers-cyber/LINKGUARDIAN-LITE/releases
 - Modern professional interface
 
 ------------------------------------------------------------
-DISTRIBUTION
-------------------------------------------------------------
-
-LINKGUARDIAN LITE is distributed as a lightweight desktop utility.
-
-This repository/documentation may include:
-
-- Python source code
-- Windows executable builds
-- Commercial upgrade references
-
-Python is only required for running the source code version.
-
-------------------------------------------------------------
 FEATURES
 ------------------------------------------------------------
 
@@ -78,42 +64,6 @@ USER INTERFACE
 - Progress bar system
 - Activity log console
 - Minimal learning curve
-
-------------------------------------------------------------
-INSTALLATION (SOURCE CODE)
-------------------------------------------------------------
-
-1. Clone the repository:
-
-git clone https://github.com/rogers-cyber/LINKGUARDIAN-LITE.git
-
-cd LINKGUARDIAN-LITE
-
-2. Install required dependencies:
-
-pip install requests ttkbootstrap tkinterdnd2
-
-3. Run the application:
-
-python LINKGUARDIAN_LITE.py
-
-------------------------------------------------------------
-BUILD WINDOWS EXECUTABLE
-------------------------------------------------------------
-
-You can create a standalone Windows executable using PyInstaller.
-
-1. Install PyInstaller:
-
-pip install pyinstaller
-
-2. Build the application:
-
-pyinstaller --onefile --windowed --icon=logo.ico LINKGUARDIAN_LITE.py
-
-The compiled executable will appear in:
-
-dist/LINKGUARDIAN_LITE.exe
 
 ------------------------------------------------------------
 USAGE GUIDE
